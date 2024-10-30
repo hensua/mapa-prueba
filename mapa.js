@@ -4,7 +4,7 @@ let directionsService; // Servicio para calcular la ruta
 let directionsRenderer; // Renderizador de la ruta en el mapa
 
 function initMap() {
-    const tiendaLocation = { lat: 10.3738801, lng: -75.47366 }; // Ubicación de la tienda
+    const tiendaLocation = { lat: 10.3737561, lng: -75.4736056 }; // Ubicación de la tienda
     
     // Inicializa el mapa
     map = new google.maps.Map(document.getElementById("map"), {
@@ -21,7 +21,7 @@ function initMap() {
     new google.maps.Marker({
         position: tiendaLocation,
         map,
-        title: "Nuestra Tienda",
+        title: "Mr. George",
         icon: {
           url: "iconTienda.png",
           scaledSize: new google.maps.Size(40, 40) // Tamaño del ícono de la tienda
